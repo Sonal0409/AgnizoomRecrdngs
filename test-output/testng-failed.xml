@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [MyTesting]">
+  <parameter name="Uname" value="admin"/>
+  <parameter name="Pwrod" value="admin@123"/>
+  <test thread-count="5" name="TestCycle1(failed)">
+    <classes>
+      <class name="com.qa.testNGScripts.ParameterXML">
+        <methods>
+          <include name="createAccount"/>
+          <include name="setup"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.qa.testNGScripts.ParameterXML -->
+      <class name="com.qa.testNGScripts.AnnotationsDemo">
+        <methods>
+          <include name="closebrowser"/>
+          <include name="SetupTest"/>
+          <include name="wikiHomePageTest"/>
+        </methods>
+      </class> <!-- com.qa.testNGScripts.AnnotationsDemo -->
+    </classes>
+  </test> <!-- TestCycle1(failed) -->
+</suite> <!-- Failed suite [MyTesting] -->

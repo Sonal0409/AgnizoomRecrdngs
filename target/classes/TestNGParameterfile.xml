@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+  
+<suite name="MyTesting" verbose="1" >
+
+<parameter name="Uname" value="emp"></parameter>
+<parameter name="Pword" value="emp@123"></parameter>
+  <test name="TestCycle1">
+    <classes> 
+      <class name="com.qa.testNGScripts.ParameterXML"/>
+    </classes>
+  </test>
+</suite>

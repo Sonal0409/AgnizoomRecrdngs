@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="MyTesting" duration-ms="16725" started-at="2021-04-24T00:59:02Z" finished-at="2021-04-24T00:59:19Z">
+    <groups>
+    </groups>
+    <test name="TestCycle1" duration-ms="16725" started-at="2021-04-24T00:59:02Z" finished-at="2021-04-24T00:59:19Z">
+      <class name="com.qa.testNGScripts.ParameterXML">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.testNGScripts.ParameterXML@e677af]" name="setup" is-config="true" duration-ms="8674" started-at="2021-04-24T00:59:02Z" finished-at="2021-04-24T00:59:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="createAccount(java.lang.String, java.lang.String)[pri:0, instance:com.qa.testNGScripts.ParameterXML@e677af]" name="createAccount" duration-ms="6354" started-at="2021-04-24T00:59:11Z" finished-at="2021-04-24T00:59:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[emp]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[emp@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createAccount -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.qa.testNGScripts.ParameterXML@e677af]" name="closeBrowser" is-config="true" duration-ms="1579" started-at="2021-04-24T00:59:17Z" finished-at="2021-04-24T00:59:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.qa.testNGScripts.ParameterXML -->
+    </test> <!-- TestCycle1 -->
+  </suite> <!-- MyTesting -->
+</testng-results>

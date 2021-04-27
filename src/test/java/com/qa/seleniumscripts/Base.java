@@ -16,7 +16,8 @@ public class Base {
 		driver.manage().deleteAllCookies();
 		driver.get(url);
 		driver.manage().window().maximize();
-		driver.manage().timeouts().pageLoadTimeout(5, TimeUnit.SECONDS);
+		driver.manage().timeouts().pageLoadTimeout(5, TimeUnit.SECONDS);// TimeoutException
+		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS); // Element nor found exceltion
 	}
 	
 	public static void main(String[] args) throws InterruptedException {
