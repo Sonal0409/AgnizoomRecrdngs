@@ -3,14 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.qa.testNGScripts.AnnotationsDemo">
+      <class name="com.qa.testNGScripts.DataDrivenTestingPOI">
         <methods>
-          <include name="closebrowser"/>
-          <include name="SetupTest"/>
-          <include name="SearchPageTest"/>
-          <include name="wikiHomePageTest"/>
+          <include name="wikipagedata" invocation-numbers="0"/>
+          <include name="setup"/>
         </methods>
-      </class> <!-- com.qa.testNGScripts.AnnotationsDemo -->
+      </class> <!-- com.qa.testNGScripts.DataDrivenTestingPOI -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -1,37 +1,511 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="19" passed="19">
   <reporter-output>
   </reporter-output>
-  <suite name="MyTesting" duration-ms="16725" started-at="2021-04-24T00:59:02Z" finished-at="2021-04-24T00:59:19Z">
+  <suite name="Default suite" duration-ms="37577" started-at="2021-04-28T00:39:59Z" finished-at="2021-04-28T00:40:36Z">
     <groups>
     </groups>
-    <test name="TestCycle1" duration-ms="16725" started-at="2021-04-24T00:59:02Z" finished-at="2021-04-24T00:59:19Z">
-      <class name="com.qa.testNGScripts.ParameterXML">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.testNGScripts.ParameterXML@e677af]" name="setup" is-config="true" duration-ms="8674" started-at="2021-04-24T00:59:02Z" finished-at="2021-04-24T00:59:11Z">
+    <test name="Default test" duration-ms="37577" started-at="2021-04-28T00:39:59Z" finished-at="2021-04-28T00:40:36Z">
+      <class name="com.qa.testNGScripts.DataDrivenTestingPOI">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.testNGScripts.DataDrivenTestingPOI@a3ffec]" name="setup" is-config="true" duration-ms="8431" started-at="2021-04-28T00:39:59Z" finished-at="2021-04-28T00:40:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="createAccount(java.lang.String, java.lang.String)[pri:0, instance:com.qa.testNGScripts.ParameterXML@e677af]" name="createAccount" duration-ms="6354" started-at="2021-04-24T00:59:11Z" finished-at="2021-04-24T00:59:17Z">
+        <test-method status="PASS" signature="wikipagedata(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.testNGScripts.DataDrivenTestingPOI@a3ffec]" name="wikipagedata" duration-ms="1323" started-at="2021-04-28T00:40:09Z" data-provider="testdata" finished-at="2021-04-28T00:40:10Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[emp]]>
+                <![CDATA[us1]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[emp@123]]>
+                <![CDATA[ps1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[password123]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Username1@gmail.com]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- createAccount -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.qa.testNGScripts.ParameterXML@e677af]" name="closeBrowser" is-config="true" duration-ms="1579" started-at="2021-04-24T00:59:17Z" finished-at="2021-04-24T00:59:19Z">
+        </test-method> <!-- wikipagedata -->
+        <test-method status="PASS" signature="wikipagedata(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.testNGScripts.DataDrivenTestingPOI@a3ffec]" name="wikipagedata" duration-ms="1230" started-at="2021-04-28T00:40:10Z" data-provider="testdata" finished-at="2021-04-28T00:40:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Username2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pas@123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[passward@123]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Username2@gmail.com]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- closeBrowser -->
-      </class> <!-- com.qa.testNGScripts.ParameterXML -->
-    </test> <!-- TestCycle1 -->
-  </suite> <!-- MyTesting -->
+        </test-method> <!-- wikipagedata -->
+        <test-method status="PASS" signature="wikipagedata(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.testNGScripts.DataDrivenTestingPOI@a3ffec]" name="wikipagedata" duration-ms="1313" started-at="2021-04-28T00:40:11Z" data-provider="testdata" finished-at="2021-04-28T00:40:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Username3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pas@123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[password@456]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Username3@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- wikipagedata -->
+        <test-method status="PASS" signature="wikipagedata(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.testNGScripts.DataDrivenTestingPOI@a3ffec]" name="wikipagedata" duration-ms="1264" started-at="2021-04-28T00:40:13Z" data-provider="testdata" finished-at="2021-04-28T00:40:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Username4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pas@123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[passward@124]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Username4@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- wikipagedata -->
+        <test-method status="PASS" signature="wikipagedata(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.testNGScripts.DataDrivenTestingPOI@a3ffec]" name="wikipagedata" duration-ms="1288" started-at="2021-04-28T00:40:14Z" data-provider="testdata" finished-at="2021-04-28T00:40:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Username5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pas@123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[password@457]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Username5@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- wikipagedata -->
+        <test-method status="PASS" signature="wikipagedata(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.testNGScripts.DataDrivenTestingPOI@a3ffec]" name="wikipagedata" duration-ms="1327" started-at="2021-04-28T00:40:15Z" data-provider="testdata" finished-at="2021-04-28T00:40:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Username6]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pas@123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[passward@125]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Username6@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- wikipagedata -->
+        <test-method status="PASS" signature="wikipagedata(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.testNGScripts.DataDrivenTestingPOI@a3ffec]" name="wikipagedata" duration-ms="1240" started-at="2021-04-28T00:40:17Z" data-provider="testdata" finished-at="2021-04-28T00:40:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Username7]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pas@123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[password@458]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Username7@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- wikipagedata -->
+        <test-method status="PASS" signature="wikipagedata(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.testNGScripts.DataDrivenTestingPOI@a3ffec]" name="wikipagedata" duration-ms="1659" started-at="2021-04-28T00:40:18Z" data-provider="testdata" finished-at="2021-04-28T00:40:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Username8]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pas@123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[passward@126]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Username8@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- wikipagedata -->
+        <test-method status="PASS" signature="wikipagedata(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.testNGScripts.DataDrivenTestingPOI@a3ffec]" name="wikipagedata" duration-ms="1416" started-at="2021-04-28T00:40:20Z" data-provider="testdata" finished-at="2021-04-28T00:40:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Username9]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pas@123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[password@459]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Username9@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- wikipagedata -->
+        <test-method status="PASS" signature="wikipagedata(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.testNGScripts.DataDrivenTestingPOI@a3ffec]" name="wikipagedata" duration-ms="1778" started-at="2021-04-28T00:40:21Z" data-provider="testdata" finished-at="2021-04-28T00:40:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Username10]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pas@123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[passward@127]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Username10@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- wikipagedata -->
+        <test-method status="PASS" signature="wikipagedata(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.testNGScripts.DataDrivenTestingPOI@a3ffec]" name="wikipagedata" duration-ms="1613" started-at="2021-04-28T00:40:23Z" data-provider="testdata" finished-at="2021-04-28T00:40:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Username11]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pas@123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[password@460]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Username11@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- wikipagedata -->
+        <test-method status="PASS" signature="wikipagedata(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.testNGScripts.DataDrivenTestingPOI@a3ffec]" name="wikipagedata" duration-ms="1683" started-at="2021-04-28T00:40:24Z" data-provider="testdata" finished-at="2021-04-28T00:40:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Username12]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pas@123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[passward@128]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Username12@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- wikipagedata -->
+        <test-method status="PASS" signature="wikipagedata(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.testNGScripts.DataDrivenTestingPOI@a3ffec]" name="wikipagedata" duration-ms="1556" started-at="2021-04-28T00:40:26Z" data-provider="testdata" finished-at="2021-04-28T00:40:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Username13]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pas@123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[password@461]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Username13@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- wikipagedata -->
+        <test-method status="PASS" signature="wikipagedata(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.testNGScripts.DataDrivenTestingPOI@a3ffec]" name="wikipagedata" duration-ms="1611" started-at="2021-04-28T00:40:28Z" data-provider="testdata" finished-at="2021-04-28T00:40:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Username14]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pas@123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[passward@129]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Username14@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- wikipagedata -->
+        <test-method status="PASS" signature="wikipagedata(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.testNGScripts.DataDrivenTestingPOI@a3ffec]" name="wikipagedata" duration-ms="1566" started-at="2021-04-28T00:40:29Z" data-provider="testdata" finished-at="2021-04-28T00:40:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Username15]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pas@123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[password@462]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Username15@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- wikipagedata -->
+        <test-method status="PASS" signature="wikipagedata(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.testNGScripts.DataDrivenTestingPOI@a3ffec]" name="wikipagedata" duration-ms="1575" started-at="2021-04-28T00:40:31Z" data-provider="testdata" finished-at="2021-04-28T00:40:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Username16]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pas@123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[passward@130]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Username16@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- wikipagedata -->
+        <test-method status="PASS" signature="wikipagedata(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.testNGScripts.DataDrivenTestingPOI@a3ffec]" name="wikipagedata" duration-ms="1578" started-at="2021-04-28T00:40:32Z" data-provider="testdata" finished-at="2021-04-28T00:40:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Username17]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pas@123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[password@463]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Username17@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- wikipagedata -->
+        <test-method status="PASS" signature="wikipagedata(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.testNGScripts.DataDrivenTestingPOI@a3ffec]" name="wikipagedata" duration-ms="1300" started-at="2021-04-28T00:40:34Z" data-provider="testdata" finished-at="2021-04-28T00:40:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Username18]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pas@123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[passward@131]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Username18@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- wikipagedata -->
+        <test-method status="PASS" signature="wikipagedata(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.testNGScripts.DataDrivenTestingPOI@a3ffec]" name="wikipagedata" duration-ms="1285" started-at="2021-04-28T00:40:35Z" data-provider="testdata" finished-at="2021-04-28T00:40:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[us12]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pas@123345]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[password@464]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Username19@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- wikipagedata -->
+      </class> <!-- com.qa.testNGScripts.DataDrivenTestingPOI -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
